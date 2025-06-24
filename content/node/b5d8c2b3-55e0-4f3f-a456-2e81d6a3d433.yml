@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b5d8c2b3-55e0-4f3f-a456-2e81d6a3d433
+  bundle: icms_people
+  default_langcode: de
+  depends:
+    73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
+    b64307f3-9232-4837-a09d-dcfd877ad189: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Max Listed Without Page'
+  created:
+    -
+      value: 1750779417
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: icms_listed_nopage
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Max Listed Without Page | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://starterkit.ddev.site/de/team/max-listed-without-page'
+  path:
+    -
+      alias: /team/max-listed-without-page
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750779473
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_icms_people_email:
+    -
+      value: test-listed-nopage@iqual.ch
+  field_icms_people_firstname:
+    -
+      value: Max
+  field_icms_people_lastname:
+    -
+      value: 'Listed Without Page'
+  field_icms_people_link:
+    -
+      uri: 'https://www.iqual.ch/'
+      title: ''
+      options: {  }
+  field_icms_people_link_linkedin:
+    -
+      uri: 'https://ch.linkedin.com/company/iqual-ag---internetl%C3%B6sungen-mit-qualit%C3%A4t'
+      title: ''
+      options: {  }
+  field_icms_people_phone:
+    -
+      value: '+41 79 123 45 67'
+  field_icms_topics:
+    -
+      entity: 73a2d543-f54a-4839-82e8-b47627635b66
+    -
+      entity: b64307f3-9232-4837-a09d-dcfd877ad189
