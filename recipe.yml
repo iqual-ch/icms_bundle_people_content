@@ -1,3 +1,5 @@
 name: 'ICMS People  - Content Recipe'
 description: 'Provide default content for the ICMS People.'
 type: 'Content'
+recipes:
+  - icms_base_content
