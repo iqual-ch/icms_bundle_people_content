@@ -6,7 +6,6 @@ _meta:
   default_langcode: de
   depends:
     73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
-    b64307f3-9232-4837-a09d-dcfd877ad189: taxonomy_term
 default:
   revision_uid:
     -
@@ -34,7 +33,7 @@ default:
       value: true
   moderation_state:
     -
-      value: listed_page
+      value: published
   metatag:
     -
       tag: meta
@@ -61,7 +60,7 @@ default:
     -
       status: 2
       cid: 0
-      last_comment_timestamp: 1750779413
+      last_comment_timestamp: 1750862339
       last_comment_name: ''
       last_comment_uid: 1
       comment_count: 0
@@ -90,5 +89,3 @@ default:
   field_icms_topics:
     -
       entity: 73a2d543-f54a-4839-82e8-b47627635b66
-    -
-      entity: f8a1a06a-c8bd-4efc-bc59-8feee29d4808

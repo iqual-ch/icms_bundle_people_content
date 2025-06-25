@@ -34,7 +34,7 @@ default:
       value: true
   moderation_state:
     -
-      value: icms_listing_unpublished
+      value: draft
   metatag:
     -
       tag: meta
@@ -61,7 +61,7 @@ default:
     -
       status: 2
       cid: 0
-      last_comment_timestamp: 1750772574
+      last_comment_timestamp: 1750862339
       last_comment_name: ''
       last_comment_uid: 1
       comment_count: 0

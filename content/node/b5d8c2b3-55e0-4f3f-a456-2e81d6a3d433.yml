@@ -13,7 +13,7 @@ default:
       target_id: 1
   status:
     -
-      value: false
+      value: true
   uid:
     -
       target_id: 1
@@ -34,7 +34,7 @@ default:
       value: true
   moderation_state:
     -
-      value: icms_listed_nopage
+      value: published
   metatag:
     -
       tag: meta
@@ -61,10 +61,13 @@ default:
     -
       status: 2
       cid: 0
-      last_comment_timestamp: 1750779473
+      last_comment_timestamp: 1750862339
       last_comment_name: ''
       last_comment_uid: 1
       comment_count: 0
+  field_icms_listed_only:
+    -
+      value: true
   field_icms_people_email:
     -
       value: test-listed-nopage@iqual.ch
