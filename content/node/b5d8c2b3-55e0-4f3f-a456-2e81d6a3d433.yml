@@ -3,11 +3,12 @@ _meta:
   entity_type: node
   uuid: b5d8c2b3-55e0-4f3f-a456-2e81d6a3d433
   bundle: icms_people
-  default_langcode: de
+  default_langcode: en
   depends:
     d99e7252-4555-4701-a788-25befa086176: user
     6462ab73-beb9-449b-b85b-29b185216c3e: media
     f8a1a06a-c8bd-4efc-bc59-8feee29d4808: taxonomy_term
+    a15d0669-724a-47fe-8032-91e7a6246667: media
 default:
   revision_uid:
     -
@@ -20,10 +21,7 @@ default:
       target_id: 1
   title:
     -
-      value: 'Johnny Random Thema B'
-  created:
-    -
-      value: 1750779417
+      value: 'Nemo Enim ipsam (Thema B)'
   promote:
     -
       value: false
@@ -36,31 +34,10 @@ default:
   moderation_state:
     -
       value: published
-  metatag:
-    -
-      tag: meta
-      attributes:
-        name: title
-        content: 'Johnny Random Thema B | ICMS'
-    -
-      tag: meta
-      attributes:
-        name: description
-        content: 'Mitarbeiter Johnny Random Thmenbereich B'
-    -
-      tag: link
-      attributes:
-        rel: canonical
-        href: 'http://default/de/team/johnny-random-thema-b'
-    -
-      tag: link
-      attributes:
-        rel: image_src
-        href: 'http://default/sites/default/files/styles/icms_og_image/public/media/images/Placeholder-iqual-CMS.png?h=a92f03cd&itok=ehHq-8F3'
   path:
     -
-      alias: /team/johnny-random-thema-b
-      langcode: de
+      alias: /team/nemo-enim-ipsam-thema-b
+      langcode: en
       pathauto: 1
   content_translation_source:
     -
@@ -70,14 +47,14 @@ default:
       value: false
   body:
     -
-      value: 'Mitarbeiter Johnny Random Thmenbereich B'
+      value: 'Elit potenti tortor porttitor montes dolor consectetur mollis dignissim cubilia ligula lorem. Cubilia ligula lorem sit adipiscing ornare posuere sociosqu mauris. Ipsum amet elit potenti tortor porttitor montes dolor consectetur mollis dignissim.'
       format: plain_text
       summary: ''
   field_blokkli_comments:
     -
       status: 2
       cid: 0
-      last_comment_timestamp: 1751377100
+      last_comment_timestamp: 1788181940
       last_comment_name: ''
       last_comment_uid: 1
       comment_count: 0
@@ -87,15 +64,236 @@ default:
   field_icms_listed_only:
     -
       value: true
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: f150becb-1748-411c-a190-b6eb075329e5
+          bundle: icms_layout_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  width: medium
+                  spacingTop: small
+                  spacingBottom: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_text:
+            -
+              value: '<p>Ipsum amet elit potenti tortor porttitor montes dolor consectetur mollis dignissim cubilia ligula lorem. <strong>dolor consectetur</strong> ornare posuere sociosqu mauris ipsum amet.</p><ul><li>Porttitor montes dolor consectetur</li><li>Sit adipiscing ornare posuere</li><li>Potenti tortor porttitor montes</li></ul>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Cubilia ligula lorem sit'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+        translations:
+          de:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_text:
+              -
+                value: '<p>Beatae sed omnis voluptatem laudantium eaque veritatis vitae perspiciatis iste accusantium totam quae architecto. <strong>vitae perspiciatis</strong> natus doloremque aperiam inventore beatae sed.</p><ul><li>Eaque veritatis vitae perspiciatis</li><li>Dicta unde natus doloremque</li><li>Voluptatem laudantium eaque veritatis</li></ul>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Omnis voluptatem laudantium eaque'
+          fr:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_text:
+              -
+                value: '<p>Accusamus dignissimos praesentium corrupti quas occaecati similique iusto ducimus voluptatum quos molestias cupiditate vero. <strong>iusto ducimus</strong> deleniti dolores excepturi provident accusamus dignissimos.</p><ul><li>Occaecati similique iusto ducimus</li><li>Odio blanditiis deleniti dolores</li><li>Corrupti quas occaecati similique</li></ul>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Molestias cupiditate vero odio'
+          it:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_text:
+              -
+                value: '<p>Enim aspernatur consequuntur sequi porro adipisci modi ipsam odit magni nesciunt quisquam numquam nemo. <strong>ipsam odit</strong> ratione neque dolorem eius enim aspernatur.</p><ul><li>Adipisci modi ipsam odit</li><li>Voluptas fugit ratione neque</li><li>Sequi porro adipisci modi</li></ul>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Quisquam numquam nemo voluptas'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 3b940ba1-151a-4e96-9175-27517b0b0963
+          bundle: icms_layout_text_media
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  alignHorizontalReduced: right
+                  imageFormat: landscape
+                  spacingTop: small
+                  spacingBottom: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_media_elements:
+            -
+              entity: a15d0669-724a-47fe-8032-91e7a6246667
+          field_icms_subtitle:
+            -
+              value: 'Sociosqu mauris ipsum amet elit potenti.'
+          field_icms_text:
+            -
+              value: '<p>Dolor consectetur mollis dignissim cubilia ligula lorem sit adipiscing ornare posuere sociosqu mauris ipsum. <strong>sit adipiscing</strong> potenti tortor porttitor montes dolor consectetur.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Mollis dignissim cubilia ligula'
+          field_icms_title_style:
+            -
+              value: heading-3
+          field_icms_title_weight:
+            -
+              value: h2
+        translations:
+          de:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_subtitle:
+              -
+                value: 'Inventore beatae sed omnis voluptatem laudantium.'
+            field_icms_text:
+              -
+                value: '<p>Perspiciatis iste accusantium totam quae architecto dicta unde natus doloremque aperiam inventore beatae sed. <strong>unde natus</strong> laudantium eaque veritatis vitae perspiciatis iste.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Accusantium totam quae architecto'
+          fr:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_subtitle:
+              -
+                value: 'Excepturi provident accusamus dignissimos praesentium corrupti.'
+            field_icms_text:
+              -
+                value: '<p>Iusto ducimus voluptatum quos molestias cupiditate vero odio blanditiis deleniti dolores excepturi provident accusamus. <strong>odio blanditiis</strong> corrupti quas occaecati similique iusto ducimus.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Voluptatum quos molestias cupiditate'
+          it:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_subtitle:
+              -
+                value: 'Dolorem eius enim aspernatur consequuntur sequi.'
+            field_icms_text:
+              -
+                value: '<p>Ipsam odit magni nesciunt quisquam numquam nemo voluptas fugit ratione neque dolorem eius enim. <strong>voluptas fugit</strong> sequi porro adipisci modi ipsam odit.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Magni nesciunt quisquam numquam'
   field_icms_people_email:
     -
       value: test-listed-nopage@iqual.ch
   field_icms_people_firstname:
     -
-      value: Johnny
+      value: Nemo
   field_icms_people_lastname:
     -
-      value: 'Random Thema B'
+      value: 'Enim ipsam (Thema B)'
   field_icms_people_link:
     -
       uri: 'https://www.iqual.ch/'
@@ -111,10 +309,158 @@ default:
       value: '+41 79 123 45 67'
   field_icms_teaser_pretitle:
     -
-      value: 'Kontakt Person'
+      value: People
   field_icms_teaser_title:
     -
-      value: 'Johnny Random, Thema A'
+      value: 'Lorem ipsum (Thema B)'
   field_icms_topics:
     -
       entity: f8a1a06a-c8bd-4efc-bc59-8feee29d4808
+translations:
+  de:
+    status:
+      -
+        value: true
+    uid:
+      -
+        target_id: 1
+    title:
+      -
+        value: 'Sed Perspiciatis (Thema B)'
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    revision_translation_affected:
+      -
+        value: true
+    moderation_state:
+      -
+        value: published
+    path:
+      -
+        alias: /team/sed-perspiciatis-thema-b
+        langcode: de
+        pathauto: 0
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    body:
+      -
+        value: 'Accusantium totam quae architecto dicta unde natus doloremque aperiam inventore beatae sed. Inventore beatae sed omnis voluptatem laudantium eaque veritatis vitae. Perspiciatis iste accusantium totam quae architecto dicta unde natus doloremque aperiam.'
+        format: plain_text
+        summary: ''
+    field_icms_people_link:
+      -
+        uri: 'https://www.iqual.ch/'
+        title: ''
+        options: {  }
+    field_icms_teaser_pretitle:
+      -
+        value: Personen
+    field_icms_teaser_title:
+      -
+        value: 'Sed perspiciatis (Thema B)'
+  fr:
+    status:
+      -
+        value: true
+    uid:
+      -
+        target_id: 1
+    title:
+      -
+        value: 'Vero Accusamus (Thema B)'
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    revision_translation_affected:
+      -
+        value: true
+    moderation_state:
+      -
+        value: published
+    path:
+      -
+        alias: /team/vero-accusamus-thema-b
+        langcode: fr
+        pathauto: 0
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    body:
+      -
+        value: 'Praesentium corrupti quas occaecati similique iusto ducimus voluptatum quos molestias cupiditate vero. Molestias cupiditate vero odio blanditiis deleniti dolores excepturi provident. Accusamus dignissimos praesentium corrupti quas occaecati similique iusto ducimus voluptatum quos.'
+        format: plain_text
+        summary: ''
+    field_icms_people_link:
+      -
+        uri: 'https://www.iqual.ch/'
+        title: ''
+        options: {  }
+    field_icms_teaser_pretitle:
+      -
+        value: Personnes
+    field_icms_teaser_title:
+      -
+        value: 'Vero accusamus (Thema B)'
+  it:
+    status:
+      -
+        value: true
+    uid:
+      -
+        target_id: 1
+    title:
+      -
+        value: 'Nemo Enim ipsam (Thema B)'
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    revision_translation_affected:
+      -
+        value: true
+    moderation_state:
+      -
+        value: published
+    path:
+      -
+        alias: /team/nemo-enim-ipsam-thema-b
+        langcode: it
+        pathauto: 0
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    body:
+      -
+        value: 'Consequuntur sequi porro adipisci modi ipsam odit magni nesciunt quisquam numquam nemo. Quisquam numquam nemo voluptas fugit ratione neque dolorem eius. Enim aspernatur consequuntur sequi porro adipisci modi ipsam odit magni nesciunt.'
+        format: plain_text
+        summary: ''
+    field_icms_people_link:
+      -
+        uri: 'https://www.iqual.ch/'
+        title: ''
+        options: {  }
+    field_icms_teaser_pretitle:
+      -
+        value: Persone
+    field_icms_teaser_title:
+      -
+        value: 'Nemo enim ipsam (Thema B)'

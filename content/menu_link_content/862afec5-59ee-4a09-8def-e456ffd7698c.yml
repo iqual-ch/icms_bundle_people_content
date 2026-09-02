@@ -1,0 +1,112 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 862afec5-59ee-4a09-8def-e456ffd7698c
+  bundle: main
+  default_langcode: en
+  depends:
+    e5820000-0000-4000-8000-0000000b0d1e: menu_link_content
+    e5820000-0000-4000-8000-0000000a0003: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Bundle People'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      title: null
+      options: {  }
+      target_uuid: e5820000-0000-4000-8000-0000000a0003
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 20
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:e5820000-0000-4000-8000-0000000b0d1e'
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 0
+  content_translation_status:
+    -
+      value: true
+translations:
+  de:
+    title:
+      -
+        value: 'Bundle Personen'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 0
+    content_translation_status:
+      -
+        value: true
+  fr:
+    title:
+      -
+        value: 'Bundle Personnes'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 0
+    content_translation_status:
+      -
+        value: true
+  it:
+    title:
+      -
+        value: 'Bundle Persone'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 0
+    content_translation_status:
+      -
+        value: true
