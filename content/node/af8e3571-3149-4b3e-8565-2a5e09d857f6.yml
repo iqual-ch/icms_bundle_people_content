@@ -201,9 +201,6 @@ default:
           field_icms_media_elements:
             -
               entity: a15d0669-724a-47fe-8032-91e7a6246667
-          field_icms_subtitle:
-            -
-              value: 'Consectetur mollis dignissim cubilia ligula lorem.'
           field_icms_text:
             -
               value: '<p>Posuere sociosqu mauris ipsum amet elit potenti tortor porttitor montes dolor consectetur mollis dignissim. <strong>tortor porttitor</strong> lorem sit adipiscing ornare posuere sociosqu.</p>'
@@ -231,9 +228,6 @@ default:
             content_translation_outdated:
               -
                 value: false
-            field_icms_subtitle:
-              -
-                value: 'Sed omnis voluptatem laudantium eaque veritatis.'
             field_icms_text:
               -
                 value: '<p>Accusantium totam quae architecto dicta unde natus doloremque aperiam inventore beatae sed omnis voluptatem. <strong>doloremque aperiam</strong> veritatis vitae perspiciatis iste accusantium totam.</p>'
@@ -254,9 +248,6 @@ default:
             content_translation_outdated:
               -
                 value: false
-            field_icms_subtitle:
-              -
-                value: 'Ducimus voluptatum quos molestias cupiditate vero.'
             field_icms_text:
               -
                 value: '<p>Dolores excepturi provident accusamus dignissimos praesentium corrupti quas occaecati similique iusto ducimus voluptatum quos. <strong>quas occaecati</strong> vero odio blanditiis deleniti dolores excepturi.</p>'
@@ -277,9 +268,6 @@ default:
             content_translation_outdated:
               -
                 value: false
-            field_icms_subtitle:
-              -
-                value: 'Odit magni nesciunt quisquam numquam nemo.'
             field_icms_text:
               -
                 value: '<p>Neque dolorem eius enim aspernatur consequuntur sequi porro adipisci modi ipsam odit magni nesciunt. <strong>porro adipisci</strong> nemo voluptas fugit ratione neque dolorem.</p>'

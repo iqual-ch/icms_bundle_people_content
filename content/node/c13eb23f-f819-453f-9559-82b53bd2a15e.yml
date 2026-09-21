@@ -199,9 +199,6 @@ default:
           field_icms_media_elements:
             -
               entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
-          field_icms_subtitle:
-            -
-              value: 'Sociosqu mauris ipsum amet elit potenti.'
           field_icms_text:
             -
               value: '<p>Dolor consectetur mollis dignissim cubilia ligula lorem sit adipiscing ornare posuere sociosqu mauris ipsum. <strong>sit adipiscing</strong> potenti tortor porttitor montes dolor consectetur.</p>'
@@ -229,9 +226,6 @@ default:
             content_translation_outdated:
               -
                 value: false
-            field_icms_subtitle:
-              -
-                value: 'Inventore beatae sed omnis voluptatem laudantium.'
             field_icms_text:
               -
                 value: '<p>Perspiciatis iste accusantium totam quae architecto dicta unde natus doloremque aperiam inventore beatae sed. <strong>unde natus</strong> laudantium eaque veritatis vitae perspiciatis iste.</p>'
@@ -252,9 +246,6 @@ default:
             content_translation_outdated:
               -
                 value: false
-            field_icms_subtitle:
-              -
-                value: 'Excepturi provident accusamus dignissimos praesentium corrupti.'
             field_icms_text:
               -
                 value: '<p>Iusto ducimus voluptatum quos molestias cupiditate vero odio blanditiis deleniti dolores excepturi provident accusamus. <strong>odio blanditiis</strong> corrupti quas occaecati similique iusto ducimus.</p>'
@@ -275,9 +266,6 @@ default:
             content_translation_outdated:
               -
                 value: false
-            field_icms_subtitle:
-              -
-                value: 'Dolorem eius enim aspernatur consequuntur sequi.'
             field_icms_text:
               -
                 value: '<p>Ipsam odit magni nesciunt quisquam numquam nemo voluptas fugit ratione neque dolorem eius enim. <strong>voluptas fugit</strong> sequi porro adipisci modi ipsam odit.</p>'

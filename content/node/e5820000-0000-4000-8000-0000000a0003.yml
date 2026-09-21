@@ -90,9 +90,6 @@ default:
           field_icms_pretitle:
             -
               value: 'ICMS Bundle'
-          field_icms_subtitle:
-            -
-              value: 'People with contact details and roles.'
           field_icms_text:
             -
               value: '<p>The People bundle presents people with photo, contact details and links. Listings can be sorted by default order, alphabetically or by weight.</p>'
@@ -123,9 +120,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'ICMS Bundle'
-            field_icms_subtitle:
-              -
-                value: 'Personen mit Kontaktangaben und Funktionen.'
             field_icms_text:
               -
                 value: '<p>Das Personen-Bundle präsentiert Personen mit Foto, Kontaktangaben und Links. Listen lassen sich nach Standardreihenfolge, alphabetisch oder nach Gewichtung sortieren.</p>'
@@ -149,9 +143,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'ICMS Bundle'
-            field_icms_subtitle:
-              -
-                value: 'Personnes avec coordonnées et fonctions.'
             field_icms_text:
               -
                 value: '<p>Le bundle Personnes présente des personnes avec photo, coordonnées et liens. Les listes peuvent être triées par ordre standard, alphabétique ou par pondération.</p>'
@@ -175,9 +166,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'ICMS Bundle'
-            field_icms_subtitle:
-              -
-                value: 'Persone con contatti e funzioni.'
             field_icms_text:
               -
                 value: '<p>Il bundle Persone presenta persone con foto, contatti e link. Gli elenchi possono essere ordinati per ordine standard, alfabetico o per peso.</p>'
